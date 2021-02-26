@@ -11,7 +11,6 @@ main: {
 dt: number,
 sys: {
   country: string
-}
+},
 name: string
-
 }
