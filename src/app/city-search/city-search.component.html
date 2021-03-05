@@ -3,5 +3,6 @@
     <mat-icon matPrefix>search</mat-icon>
     <input matInput placeholder="Enter city, country"[formControl]="search"/>
     <mat-hint>specify country code</mat-hint>
+    <mat-error *ngIf="search.invalid">Type atleast three or more characters</mat-error>
   </mat-form-field>
 </form>
